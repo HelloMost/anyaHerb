@@ -28,14 +28,6 @@ function animateCapsule() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    
-    setTimeout(function () {
-        document.querySelector("h1").classList.add("fade-in");
-        document.querySelector("p").classList.add("fade-in");
-    }, 500);
-});
-
 // Attach a scroll event listener to trigger the animation
 window.addEventListener('scroll', animateCapsule);
 
