@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    margin-right: 2rem;
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.btn {
+    border-radius: 20rem; 
+    height: 5rem; 
+    width: 20rem; 
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-line{
+    background-color: #06c755;
+}
+
+.btn-shopee {
+    background-color: #ee4d2d;
+}
+
+.btn-lazada {
+    background-color: #0037cc;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.logo {
+    height: 4rem; 
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 430px) {
+    .btn {
+        height: 2rem;
+        width: 5rem;
+        font-size: 6px;
+    }
+
+    .logo {
+        margin-right: 0;
+        height: 15px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        padding: 0 0 ;
+    }
+}
