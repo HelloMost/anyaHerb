@@ -30,6 +30,15 @@ a {
 .btn-lazada {
     background-color: #0037cc;
 }
+.btn-contact {
+    background-color: #5fba4e;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+}
 
 .btn:hover {
     background-color: black;
@@ -78,5 +87,14 @@ a {
     .navbar {
         font-size: 14px;
         padding: 0 0 ;
+    }
+    .btn-contact {
+        background-color: #5fba4e;
+        font-size: 15px;
+        padding: 5px 10px;
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        margin-top: 5px;
     }
 }
